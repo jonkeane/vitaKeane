@@ -106,10 +106,6 @@ html, body {
       float: left;
 }
 
-.abstract{
-    display: none;
-}
-
 a.cite {
   text-decoration: none;
   /* border-bottom: 1px DASHED #AAA; */
