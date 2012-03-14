@@ -219,6 +219,11 @@ hr.large {
     height: 6px;
     margin: 10px 0 20px 0; }
 
+hr.small {
+    border: none;
+    height: 2px;
+    margin: 20px 0 0 0; }
+
 hr {
     border: none;
     height: 4px;
@@ -228,7 +233,52 @@ div.doc-section {
     margin: 5px 0px 30px 0px; }
 
 
+/* added for vita site */
 
+
+p.abstract {margin-top: 1em}
+
+pre, code {
+  font-family: 'Inconsolata', monospace;
+  background-color: #eee;
+  color: #000;
+}
+
+pre {
+  border: 1px solid #ccc;
+  padding: 5px; 
+  line-height: 1.4em;
+  margin: 0.75em 0 0.75em 0;
+  overflow: hidden;
+}
+
+header p {
+  font-weight: bold;
+  margin-bottom: 0px;
+  font-size: 21px;
+}
+
+.article .citation {margin-top: 0em;}
+
+div.citation {margin-top: 1em;}
+.citation ul {list-style: none;}
+.citation img {float: left; }
+.citation .title {font-weight: bold}
+.citation li {line-height: 18px; margin-bottom: 2px; }
+.citation ul {margin-bottom: 0}
+.citation .note {font-size: 90%}
+
+/***
+.sidebar { padding-top: 1em}
+.sidebar ul {list-style: inside disc; margin-bottom: 1em;}
+.sidebar li {display: inline;}
+.sidebar h3 {font-size: 1.5em;}
+
+.sidebar li:before {
+	content: "• ";
+	}
+
+***/
 
 /* Anything smaller than standard 960 */
 @media only screen and (max-width: 959px) {
@@ -252,13 +302,25 @@ div.doc-section {
 	width: 124px;
     }
 
+    .sidebar h3 { 
+	font-size: 18px; line-height: 22px; 
+    }
+
 }
 
 /* Mobile (portrait) */
 @media only screen and (max-width: 767px) {
     div.container {
 	padding-top: 0px; }
-    header h1 { font-size: 34px; line-height: 37px; }
+    
+    header {
+	margin-top: 10px;
+    }
+    
+    header h1 { 
+	font-size: 34px; line-height: 37px; 
+    }
+    
     header img#mark {
 	height: 23px;
 	margin: -1px 0 0 0;
