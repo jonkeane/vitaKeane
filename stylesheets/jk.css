@@ -218,7 +218,7 @@ hr.large {
 hr.small {
     border: none;
     height: 2px;
-    margin: 20px 0 0 0; }
+    margin: 10px 0 0 0; }
 
 hr {
     border: none;
@@ -275,6 +275,38 @@ div.citation {margin-top: 1em;}
 	}
 
 ***/
+
+.sort {
+    float: left;
+    width:100%;
+    margin-bottom: 10px;
+    display: none;
+}
+
+.sort h1,.sort h2,.sort h3,.sort h4,.sort h5,.sort h6 {
+    display: inline; 
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.sort ul {
+    display: inline; 
+    float: left;
+    list-style: inside disc;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.sort li{
+    display: inline;
+}
+
+.sort li:before {
+	content: "• ";
+	color: #006699;
+	}
+
 
 /* Anything smaller than standard 960 */
 @media only screen and (max-width: 959px) {
