@@ -363,6 +363,11 @@ div.citation {margin-top: 1em;}
 	margin: -1px 0 0 0;
     }
 
+    .citation img,
+    .thumbSpace {
+	display: none; 
+    }
+
     nav { position: relative; }
     nav img#jon,
     nav img#html5 {
