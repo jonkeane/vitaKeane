@@ -3,11 +3,11 @@
 
 \documentclass[10pt, letterpaper]{article}
 \usepackage[dvipsnames,usenames]{xcolor}
-\usepackage{fontspec} 
+\usepackage{fontspec}
 
 %%% Hanging indents: args length, number of lines.
 %%% \begin{hangparas}{1em}{1}
-\usepackage{hanging} 
+\usepackage{hanging}
 \usepackage{datetime}
 \renewcommand{\dateseparator}{-}
 \newdateformat{isodate}{%
@@ -19,7 +19,7 @@
 
 
 % DOCUMENT LAYOUT
-\usepackage{geometry} 
+\usepackage{geometry}
 \geometry{letterpaper, top=.65in, textwidth=6in, textheight=9.7in, marginparsep=1em}
 
 
@@ -28,7 +28,7 @@
 \defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
 \setmainfont [Ligatures={Common},Numbers=OldStyle, BoldFont={* Bold}, ItalicFont={* Italic}]{Minion Pro}
 \setsansfont {Neutraface Text}
-\setmonofont{Monaco} 
+\setmonofont{Monaco}
 % ---- CUSTOM AMPERSAND
 \newcommand{\amper}{{\fontspec[Scale=.95]{Fontin}\&}}
 \newcommand{\urltilde}{$\sim$}
@@ -38,16 +38,16 @@
 \newcommand{\years}[1]{\marginpar{\scriptsize #1}}
 
 % HEADINGS
-\usepackage{sectsty} 
-\usepackage[normalem]{ulem} 
+\usepackage{sectsty}
+\usepackage[normalem]{ulem}
 \sectionfont{\sffamily\bfseries\upshape\Large}
-\subsectionfont{\sffamily\bfseries\upshape\normalsize} 
-\subsubsectionfont{\sffamily\mdseries\upshape\normalsize} 
+\subsectionfont{\sffamily\bfseries\upshape\normalsize}
+\subsubsectionfont{\sffamily\mdseries\upshape\normalsize}
 
 % PDF SETUP
 % ---- FILL IN HERE THE DOC TITLE AND AUTHOR
-\usepackage[bookmarks, colorlinks, breaklinks]{hyperref}  
-\hypersetup{linkcolor=NavyBlue,citecolor=NavyBlue,filecolor=NavyBlue,urlcolor=NavyBlue,pdftitle=Jonathan Keane - CV,pdfauthor=Jonathan Keane,bookmarksopen=true} 
+\usepackage[bookmarks, colorlinks, breaklinks]{hyperref}
+\hypersetup{linkcolor=NavyBlue,citecolor=NavyBlue,filecolor=NavyBlue,urlcolor=NavyBlue,pdftitle=Jonathan Keane - CV,pdfauthor=Jonathan Keane,bookmarksopen=true}
 
 % DOCUMENT
 \begin{document}
@@ -59,11 +59,11 @@
 \begin{table}[!t]
   \begin{tabular*}{6.5in}{r|l}
     \hspace{3in}\textbf{\LARGE\sffamily Jonathan Keane}  &\\
-Department of Linguistics & \href{mailto:jonkeane@uchicago.edu}{\textsc{jonkeane@uchicago.edu}}\\
-  The University of Chicago & \href{http://jonkeane.com}{\textsc{jonkeane.com}}\\
-1115 \textsc{e} 58th Street & \\
-Rosenwald Hall, room 224c & \\
-    Chicago \textsc{il} 60637 & \\
+Mattersight & \href{mailto:jonkeane@uchicago.edu}{\textsc{jonkeane@uchicago.edu}}\\
+  200 \textsc{w} Madison Street
+ & \href{http://jonkeane.com}{\textsc{jonkeane.com}}\\
+ Suite 3100 & \\
+Chicago, \textsc{il} 60606 & \\
   \end{tabular*}
 \end{table}
 %%% Begin with soft hyphen “\-” to line up the years marginpar.
@@ -71,11 +71,11 @@ Rosenwald Hall, room 224c & \\
 \setlength\parskip{0ex}
 \pdfbookmark[0]{Current position}{Current position}
 \section*{Current position}
-\emph{Post-Doctoral Fellow}\\ Center for Gesture, Sign, and Language\\ Department of Linguistics \\ The University of Chicago\\
+\emph{Data Scientist}\\ \href{http://www.mattersight.com}{Mattersight}
 
 \pdfbookmark[0]{Areas of specialization}{Areas of specialization}
 \section*{Areas of specialization}
-Articulatory phonetics and phonology, signed languages, \textsc{asl}, co-speech gesture, fingerspelling, syntax, morphology, variation, data analysis, computational approaches to linguistics
+Data science, software development, predictive models, statistical computing, data visualization, articulatory phonetics and phonology, signed languages, American Sign Language \textsc{(asl)}, co-speech gesture, fingerspelling, syntax, morphology, variation, data analysis, computational approaches to linguistics
 
 % \section*{Appointments held}
 % \noindent
@@ -96,11 +96,11 @@ Articulatory phonetics and phonology, signed languages, \textsc{asl}, co-speech 
 
 \pdfbookmark[0]{Honors + awards}{Honors + awards}
 \section*{Awards + funding}
-\-\years{2013--2015}\textit{\textsc{NSF} Doctoral Dissertation Research Improvement Grant} \\ Coarticulation and the phonetics of fingerspelling \\ \textsc{bcs}1251807 
+\-\years{2013--2015}\textit{\textsc{nsf} Doctoral Dissertation Research Improvement Grant} \\ Coarticulation and the phonetics of fingerspelling \\ \textsc{bcs}1251807
 
-\-\years{2013}\textit{Nominated for best student presentation} at \textsc{tislr} 11 for \textit{Towards an articulatory model of handshape} 
+\-\years{2013}\textit{Nominated for best student presentation} at \textsc{tislr} 11 for \textit{Towards an articulatory model of handshape}
 
-\-\years{2013--2014}\textit{Mellon Humanities Dissertation-Year Fellowship} 
+\-\years{2013--2014}\textit{Mellon Humanities Dissertation-Year Fellowship}
 
 \-\years{2010}\textit{Rella I Cohn fund} Graduate student research funding -- \textsc{asl} fingerspelling data collection
 
@@ -122,14 +122,16 @@ Articulatory phonetics and phonology, signed languages, \textsc{asl}, co-speech 
 
 \pdfbookmark[0]{Experience}{Experience}
 \section*{Experience}
-\-\years{2011--}\textit{Lab Manager}  \href{http://signlanguagelab.uchicago.edu}{Sign Language Linguistics Laboratory} \hfill University of Chicago \\ Diane Brentari \\
+\-\years{2014--2016}\textit{Post-Doctoral Fellow and Research Coordinator} \hfill University of Chicago \\ \href{http://gslcenter.uchicago.edu}{Center for Gesture, Sign, and Language} and  \href{http://linguistics.uchicago.edu}{Department of Linguistics}
 
-\-\years{2009--}\textit{Research Assistant} \href{http://clml.uchicago.edu/}{Chicago Language Modeling Laboratory} \hfill University of Chicago \\Jason Riggle \\
+\-\years{2011--2014}\textit{Lab Manager}  \href{http://signlanguagelab.uchicago.edu}{Sign Language Linguistics Laboratory} \hfill University of Chicago \\ Diane Brentari \\
+
+\-\years{2009--2014}\textit{Research Assistant} \href{http://clml.uchicago.edu/}{Chicago Language Modeling Laboratory} \hfill University of Chicago \\Jason Riggle \\
 Automated sign language recognition working group
 
 
 \-\years{2006}\textit{Research Assistant} Variation in Control Structures \hfill University of Florida\\
-Eric Potsdam 
+Eric Potsdam
 
 \pdfbookmark[0]{Teaching}{Teaching}
 \section*{Teaching}
@@ -203,10 +205,7 @@ Python, R, {\sc sql}, \LaTeX, {\sc (x)html}, \textsc{php}, C, \textsc{elan}, mic
 % Typesetting your academic CV in LaTeX
 %
 % URL: http://nitens.org/taraborelli/cvtex
-% DISCLAIMER: This template is provided for free and without any guarantee 
-% that it will correctly compile on your system if you have a non-standard  
+% DISCLAIMER: This template is provided for free and without any guarantee
+% that it will correctly compile on your system if you have a non-standard
 % configuration.
 %------------------------------------
-
-
-
